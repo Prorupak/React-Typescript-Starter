@@ -1,13 +1,13 @@
 root = true
 
-[*.js]
+[*.tsx]
 end_of_line = lf
 insert_final_newline = true
 charset = utf-8
 
-[*.js]
+[*.tsx]
 indent_style = space
-indent_size = 2
+indent_size = 1
 
 [Makefile]
-indent_style = tab
+indent_style = space

@@ -1,4 +1,11 @@
 {
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -18,9 +25,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "baseUrl": "src",
     "jsx": "react-jsx"
   },
   "include": [
-    "src/Typescript"
+    "src/Typescript", "custom.d.ts"
   ]
 }
